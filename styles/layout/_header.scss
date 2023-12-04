@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1em;
+    
+    color: $text-dark;
+
+    border-style: solid;
+    border-color: $text-dark;
+    border-width: 0 0 1px 0;
+
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+.primary-nav {
+    list-style: none;
+    font-size: 0.75rem;
+    padding: 0;
+    margin: 0;
+
+    a {
+        text-decoration: none;
+    }
+}

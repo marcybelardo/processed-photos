@@ -1,0 +1,25 @@
+/// Sans serif fonts
+/// @type List
+$font-brand: 'IBM Plex Mono', 'Inconsolata';
+
+/// Serif fonts
+/// @type List
+$font-serif: serif;
+
+/// Accent color
+/// @type Color
+$brand-color: hsl(0, 89, 50);
+
+/// Main background
+/// @type Color
+$bg-color: hsl(0, 0, 97);
+
+/// Lighter text color
+/// @type Color
+$text-light: hsl(60, 1, 24);
+
+/// Darker text color
+/// @type Color
+$text-dark: hsl(60, 1, 19);
+
+$nav-gaps: 1rem;
