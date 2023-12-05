@@ -4,7 +4,7 @@ $font-brand: 'IBM Plex Mono', 'Inconsolata';
 
 /// Serif fonts
 /// @type List
-$font-serif: serif;
+$font-serif: 'Georgia';
 
 /// Accent color
 /// @type Color
@@ -13,6 +13,10 @@ $brand-color: hsl(0, 89, 50);
 /// Main background
 /// @type Color
 $bg-color: hsl(0, 0, 97);
+
+/// Lighter text color
+/// @type Color
+$text-lighter: hsl(60, 1, 45);
 
 /// Lighter text color
 /// @type Color

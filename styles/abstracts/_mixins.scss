@@ -1,0 +1,8 @@
+@mixin red-box($position, $size) {
+    content: "";
+    position: absolute;
+    transform: translateY($position);
+    background-color: $brand-color;
+    width: $size;
+    height: $size;
+}

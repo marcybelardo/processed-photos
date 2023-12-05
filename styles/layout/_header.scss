@@ -2,13 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    margin: 1em;
     
     color: $text-dark;
 
     border-style: solid;
-    border-color: $text-dark;
+    border-color: $text-lighter;
     border-width: 0 0 1px 0;
 
     p {
@@ -24,5 +22,10 @@
 
     a {
         text-decoration: none;
+        color: $text-dark;
+
+        &:hover::before {
+            @include red-box(12px, 10px);
+        }
     }
 }

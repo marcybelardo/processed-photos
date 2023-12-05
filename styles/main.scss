@@ -1,15 +1,16 @@
 @charset "UTF-8";
 
 @import
-    "abstracts/variables";
+    "abstracts/variables",
+    "abstracts/mixins";
 
 @import
     "base/font-face",
     "base/typography";
 
 @import
-    "components/red_box",
-    "components/image-panel";
+    "components/image-panel",
+    "components/image-text";
 
 @import
     "layout/header",

@@ -1,3 +1,7 @@
 .image-panel {
     margin: 10px;
+
+    &::before {
+        @include red-box(675px, 20px);
+    }
 }
