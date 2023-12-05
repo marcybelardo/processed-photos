@@ -11,7 +11,7 @@ export default function Header() {
             <div></div>
             <div>
                 <nav>
-                    <ul className="primary-nav flex">
+                    <ul className="primary-nav">
                         <NavLink label="ABOUT" path="/about" />
                         <NavLink label="ARCHIVE" path="/archive" />
                         <NavLink label="CONTACT" path="/contact" />
@@ -24,7 +24,7 @@ export default function Header() {
 
 function NavLink({ label, path } : { label: string, path: string }) {
     return(
-        <li>
+        <li className="nav-link-wrapper">
             <Link href={path}>
                 {label}
             </Link>

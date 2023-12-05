@@ -1,5 +1,6 @@
 .page-body {
-    display: flex;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }

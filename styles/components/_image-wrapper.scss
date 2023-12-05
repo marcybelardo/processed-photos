@@ -1,0 +1,6 @@
+.image-wrapper::before {
+    $local-size: 20px;
+
+    @include red-box($local-size);
+    grid-row: 1 / 2;
+}

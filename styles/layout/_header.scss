@@ -15,6 +15,10 @@
 }
 
 .primary-nav {
+    display: grid;
+    position: relative;
+    grid-auto-flow: column;
+    gap: 1rem;
     list-style: none;
     font-size: 0.75rem;
     padding: 0;
@@ -23,9 +27,12 @@
     a {
         text-decoration: none;
         color: $text-dark;
-
-        &:hover::before {
-            @include red-box(12px, 10px);
-        }
     }
+}
+
+.nav-link-wrapper:hover::before {
+    $local-size: 10px;
+
+    @include red-box($local-size);
+    grid-row: 1 / 2;
 }

@@ -1,7 +1,6 @@
 .image-panel {
+    display: grid;
+    position: relative;
+    width: min(65%, 50rem);
     margin: 10px;
-
-    &::before {
-        @include red-box(675px, 20px);
-    }
 }
