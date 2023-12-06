@@ -1,4 +1,4 @@
-import Link from "next/link";
+import NavLink from "./nav_link";
 
 const site_title = "processed.photos";
 
@@ -19,15 +19,5 @@ export default function Header() {
                 </nav>
             </div>
         </div>
-    )
-}
-
-function NavLink({ label, path } : { label: string, path: string }) {
-    return(
-        <li className="nav-link-wrapper">
-            <Link href={path}>
-                {label}
-            </Link>
-        </li>
     )
 }

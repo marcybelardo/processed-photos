@@ -9,3 +9,17 @@
     font-weight: 200;
     src: url('../../public/fonts/IBMPlexMono-ExtraLight.woff2') format('woff2');
 }
+
+@font-face {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../../public/fonts/DMSerifDisplay-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-style: italic;
+    src: url('../../public/fonts/DMSerifDisplay-Italic.woff2') format('woff2');
+}

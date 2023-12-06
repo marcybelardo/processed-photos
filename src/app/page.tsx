@@ -8,9 +8,9 @@ export default function Home() {
     <main>
       <Header />
       <div className="page-body">
-        <ImageText />
+        <div></div>
         <ImagePanel path="/images/sample.jpeg" />
-        <div><p>placeholder</p></div>
+        <ImageText />
       </div>
       <Footer />
     </main>

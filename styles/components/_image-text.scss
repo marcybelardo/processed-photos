@@ -1,13 +1,24 @@
-.image-text {
+.image-text-wrapper {
+    text-align: right;
+}
+
+.image-info {
     font-family: $font-serif;
 
     h3 {
         font-style: bold;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
+
+    span {
+        font-size: 0.6rem;
+    }
+}
+
+.image-text {
+    font-family: $font-serif;
 
     p {
         font-size: 0.7rem;
-        font-style: italic;
     }
 }
