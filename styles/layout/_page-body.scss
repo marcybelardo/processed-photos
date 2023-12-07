@@ -1,6 +1,13 @@
 .page-body {
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-    align-items: center;
-    justify-items: center;
+    &__about {
+        display: flex;
+        align-items: center;
+    }
+
+    &__photo {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        align-items: center;
+        justify-items: center;
+    }
 }
